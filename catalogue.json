@@ -1,0 +1,266 @@
+{
+  "name": "Built-in catalogue",
+  "packs": [
+    {
+      "id": "cutout-megapack",
+      "name": "Cut-Out Megapack",
+      "author": "sortitoutsi",
+      "description": "Cut-out faces on a clear background, matching FM's own portraits. The biggest pack available. Needs a free sortitoutsi account.",
+      "version": "2027.00",
+      "size": "14.9 GB",
+      "faces": "558,000",
+      "type": "faces",
+      "style": "Cut-out",
+      "badge": "Recommended",
+      "homepage": "https://sortitoutsi.net/graphics/style/1/cut-out-player-faces",
+      "folder": "cutout-megapack",
+      "updateCheck": {
+        "url": "https://fmportugal.net/en/cut-out-player-faces-fm27/",
+        "pattern": "Version\\s+(\\d{4}\\.\\d{2})\\s+came out"
+      }
+    },
+    {
+      "id": "df11-classic",
+      "name": "DF11 Classic",
+      "author": "DF11 Faces",
+      "description": "Sticker-album portraits with part of the player's shirt showing, across 250+ leagues.",
+      "version": "0",
+      "faces": "264,000",
+      "type": "faces",
+      "style": "Sticker portrait",
+      "versionLabel": "Update",
+      "homepage": "https://www.df11faces.com/post/df11-faces-classic-megapack-fm27",
+      "folder": "df11-classic",
+      "updateCheck": {
+        "url": "https://www.df11faces.com/fm27-facepack-download",
+        "pattern": "href=\"(?<url>https://www\\.df11faces\\.com/post/df11-classic-megapack-fm27-update-file-(?<v>\\d+))\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "df11-pure",
+      "name": "DF11 Pure",
+      "author": "DF11 Faces",
+      "description": "The DF11 sticker-album style in a smaller set covering 179+ leagues. Downloads in 2 parts; the app joins them for you.",
+      "size": "6.0 GB",
+      "parts": "2",
+      "version": "0",
+      "faces": "187,000",
+      "type": "faces",
+      "style": "Sticker portrait",
+      "versionLabel": "Update",
+      "homepage": "https://www.df11faces.com/post/df11-pure-fm27-men-s-megapack",
+      "folder": "df11-pure",
+      "updateCheck": {
+        "url": "https://www.df11faces.com/fm27-facepack-download",
+        "pattern": "href=\"(?<url>https://www\\.df11faces\\.com/post/df11-pure(?![a-z0-9-]*women)[a-z0-9-]*update-file-(?<v>\\d+))\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "footbe-logos",
+      "name": "Footbe Logos",
+      "author": "Stam (footbe.net)",
+      "description": "Clean, matching club and competition logos drawn from scratch. 51 leagues fully covered, with playable clubs first.",
+      "version": "2026-27",
+      "size": "40 MB",
+      "type": "logos",
+      "style": "Flat logos",
+      "badge": "No account needed",
+      "homepage": "https://www.fmscout.com/a-footbe-logos-for-football-manager.html",
+      "folder": "footbe-logos",
+      "updateCheck": {
+        "pattern": "<title>Footbe Logos (\\d{4}-\\d{2})"
+      }
+    },
+    {
+      "id": "fmg-standard-logos",
+      "name": "FMG Standard Logos",
+      "author": "Football Manager Graphics",
+      "description": "Club and competition logos in their original look. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "faces": "92,711",
+      "type": "logos",
+      "style": "Standard logos",
+      "folder": "fmg-standard-logos",
+      "versionLabel": "Update",
+      "homepage": "https://footballmanagergraphics.com/files/file/948-fmg-standard-logos-megapack-202600/",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/146-fmg-standard-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?fmg-standard-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "plastic-logos",
+      "name": "Plastic Logos",
+      "author": "Football Manager Graphics",
+      "description": "Glossy, 3D-effect club and competition logos. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "faces": "93,297",
+      "type": "logos",
+      "style": "Glossy logos",
+      "folder": "plastic-logos",
+      "versionLabel": "Update",
+      "homepage": "https://footballmanagergraphics.com/files/file/947-fmg-plastic-logos-megapack-202600/",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/145-fmg-plastic-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?fmg-plastic-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "vapour-logos",
+      "name": "Vapour Logos",
+      "author": "Football Manager Graphics",
+      "description": "Logos with a soft glow effect. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "faces": "92,996",
+      "type": "logos",
+      "style": "Glow logos",
+      "folder": "vapour-logos",
+      "versionLabel": "Update",
+      "homepage": "https://footballmanagergraphics.com/files/file/950-fmg-vapour-logos-megapack-202600/",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/148-fmg-vapour-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?fmg-vapour-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "grunge-logos",
+      "name": "Grunge Logos",
+      "author": "Football Manager Graphics",
+      "description": "Logos with a worn, textured look. FMG also posts complete Grunge packs some months: start from the newest one. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "versionLabel": "Update",
+      "type": "logos",
+      "style": "Grunge logos",
+      "homepage": "https://footballmanagergraphics.com/files/file/943-fmg-grunge-logos-megapack-202600/",
+      "folder": "grunge-logos",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/141-fmg-grunge-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?(?:fmg-)?grunge-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "ing-logos",
+      "name": "ING Logos",
+      "author": "Football Manager Graphics",
+      "description": "FMG's ING logo style. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "versionLabel": "Update",
+      "type": "logos",
+      "style": "ING logos",
+      "homepage": "https://footballmanagergraphics.com/files/file/944-fmg-ing-logos-megapacks-2026/",
+      "folder": "ing-logos",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/142-fmg-ing-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?(?:fmg-)?ing-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "minimal-logos",
+      "name": "Minimal Logos",
+      "author": "Football Manager Graphics",
+      "description": "Simple, minimal club logos. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "versionLabel": "Update",
+      "type": "logos",
+      "style": "Minimal logos",
+      "homepage": "https://footballmanagergraphics.com/files/file/946-fmg-minimal-logos-megapack-202600/",
+      "folder": "minimal-logos",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/144-fmg-minimal-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?(?:fmg-)?minimal-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "steel-logos",
+      "name": "Steel Logos",
+      "author": "Football Manager Graphics",
+      "description": "Logos with a metallic steel finish. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "versionLabel": "Update",
+      "type": "logos",
+      "style": "Steel logos",
+      "homepage": "https://footballmanagergraphics.com/files/file/949-fmg-steel-logos-megapack-202600/",
+      "folder": "steel-logos",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/147-fmg-steel-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?(?:fmg-)?steel-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "fmv-logos",
+      "name": "FMV Logos",
+      "author": "Football Manager Graphics",
+      "description": "FMG's FMV logo style. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "versionLabel": "Update",
+      "type": "logos",
+      "style": "FMV logos",
+      "homepage": "https://footballmanagergraphics.com/files/file/951-fmv-logos-megapack-202600/",
+      "folder": "fmv-logos",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/149-fmv-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?(?:fmg-)?fmv-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      }
+    },
+    {
+      "id": "round-logos",
+      "name": "Round Logos",
+      "author": "Football Manager Graphics",
+      "description": "Club logos as round badges. Opens the 2026.00 megapack page; after that the app guides you through its monthly updates in order. Free FMG account needed.",
+      "version": "0",
+      "versionLabel": "Update",
+      "type": "logos",
+      "style": "Round logos",
+      "homepage": "https://footballmanagergraphics.com/files/file/984-fmg-round-logos-megapack/",
+      "folder": "round-logos",
+      "updateCheck": {
+        "url": "https://footballmanagergraphics.com/files/category/150-fmg-round-logos/",
+        "pattern": "href=\"(?<url>https://footballmanagergraphics\\.com/files/file/\\d+-(?:fm2\\d-)?(?:fmg-)?round-logos-update-(?<v>\\d{6})/?)\"",
+        "default": "0"
+      },
+      "size": "40 MB"
+    },
+    {
+      "id": "ss-kits",
+      "name": "SS' Kits",
+      "author": "sortitoutsi",
+      "description": "Flat 2D kits shown on squad and match screens. Needs a free sortitoutsi account.",
+      "version": "2027.02",
+      "size": "27.5 MB",
+      "faces": "1,094",
+      "type": "kits",
+      "style": "2D kits",
+      "homepage": "https://sortitoutsi.net/graphics/style/2/ss-kits",
+      "folder": "ss-kits",
+      "updateCheck": {
+        "pattern": "(\\d{4}\\.\\d{2})\\s*-\\s*Released on"
+      }
+    },
+    {
+      "id": "unity-3d-kits",
+      "name": "3D Match Kits",
+      "author": "sortitoutsi",
+      "description": "Real kits worn by players in the 3D match engine (the FM26/FM27 engine). Needs a free sortitoutsi account.",
+      "version": "2027.02",
+      "size": "139 MB",
+      "faces": "1,058",
+      "type": "kits",
+      "style": "3D kits",
+      "homepage": "https://sortitoutsi.net/graphics/style/40/unity-3d-kits",
+      "folder": "unity-3d-kits",
+      "updateCheck": {
+        "pattern": "(\\d{4}\\.\\d{2})\\s*-\\s*Released on"
+      }
+    }
+  ]
+}
